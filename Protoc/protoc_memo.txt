@@ -9,3 +9,12 @@ C:\Program Files\にProtocフォルダを作って上記zipを解凍。
 pbfのデコードは以下のコマンドでできる。
 protoc --decode_raw <201.pbf > output9-455-201.txt
 
+=========================
+https://qiita.com/sta/items/6d29da0dc7069ffaae60を参照
+
+echo %path%
+echo %path% > env_path_list.txt
+
+set PATH=%PATH%;C:\Program Files\Protoc\protoc-3.8.0-win64\bin
+=====================
+
