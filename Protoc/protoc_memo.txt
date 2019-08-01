@@ -1,0 +1,11 @@
+https://qiita.com/tkmn0/items/7208c880693e63ca247aを参照。
+
+https://github.com/protocolbuffers/protobuf/releases から、
+protoc-3.8.0-win32.zipをダウンロード。
+C:\Program Files\にProtocフォルダを作って上記zipを解凍。
+環境変数のPathに　C:\Program Files\Protoc\protoc-3.8.0-win32\binを設定。
+再起動すれば動くようになる。
+
+pbfのデコードは以下のコマンドでできる。
+protoc --decode_raw <201.pbf > output9-455-201.txt
+
